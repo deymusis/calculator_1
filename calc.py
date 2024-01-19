@@ -1,14 +1,14 @@
 print("This is a simple calculator. Enter two numbers and an operator.")
 
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the first number: "))
+num1: float = float(input("Enter the first number: "))
+num2: float = float(input("Enter the second number: "))
 
-operator = input("Enter an operator (+, -, *, /). ")
+operator: str = input("Enter an operator (+, -, *, /). ")
 
-plus = "+"
-minus = "-"
-multiplier = "*"
-divisor = "/"
+plus: str = "+"
+minus: str = "-"
+multiplier: str = "*"
+divisor: str = "/"
 
 if operator == plus:
     print("Result: ", num1 + num2)
